@@ -1,4 +1,4 @@
-AssignmentCode
+Practice Code
 ==============
 
-All my assignment code
+All my pracitce code to learn a new language and some program I have done.
