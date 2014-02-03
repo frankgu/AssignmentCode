@@ -56,12 +56,12 @@ int main()
 
     cvProjectPoints2(ab, output_rotation_vector, translation, camera_matrix, NULL, image_points);
 
-	printf("Xw = [ %f , %f , %f ]\n",cvmGet(ab, 0, 0),cvmGet(ab, 1, 0),cvmGet(ab, 2, 0));
+    printf("Xw = [ %f , %f , %f ]\n",cvmGet(ab, 0, 0),cvmGet(ab, 1, 0),cvmGet(ab, 2, 0));
     printf("%f\n", cvmGet(image_points, 0, 0));
     printf("%f\n", cvmGet(image_points, 1, 0));
 
-	// any char continues, and you can print debugging info with printf
-	getchar();
+    // any char continues, and you can print debugging info with printf
+    getchar();
 
     return 0;
 }
